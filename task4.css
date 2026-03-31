@@ -131,6 +131,15 @@ body {
   transform: scale(1.02);
 }
 
+#work .work {
+  cursor: pointer;
+  box-shadow: rgba(232, 226, 53, 0.24) 0px 3px 8px;
+  background-color: rgba(66, 248, 178, 0.5);
+}
+#work .work:hover {
+  transform: scale(1.02);
+}
+
 @media (max-width: 768px) {
   #home img {
     margin-bottom: 30px;
